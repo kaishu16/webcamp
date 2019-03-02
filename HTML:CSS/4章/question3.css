@@ -1,0 +1,9 @@
+header{
+  width: 10%;
+}
+header.headline{
+  font-size: 22px;
+}
+.nav{
+  text-align: center;
+}

@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+  display: block;
+  clear: both;
+  content: "";
+}
+.nav{
+  width: 100%;
+  height: 70px;
+  background-color: #EC715F;
+}
+.nav-list{
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
+  text-align: right;
+}
+.nav-icon{
+  position: absolute;
+  height: 70px;
+  left: 0;
+  top: 0;
+}
+.nav-list-item{
+  list-style: none;
+  padding: 25px 30px;
+  /*微妙にずれ*/
+  font-size: 16px;
+  display: inline-block;
+  color: #FAFAFA;
+}
+.main-visual{
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.headline{
+  padding-top: 200px;
+  font-size: 64px;
+  color: #FAFAFA;
+}
+.headline-text{
+  padding-top: 10px;
+  font-size: 20px;
+  color: #FAFAFA;
+}
+.main1, .main3{
+  width: 100%;
+  background-color: #ECEFF1;
+}
+.main2 .main4{
+  width: 100%;
+  background-color: #FAFAFA;
+}
+.portfolio{
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+.feature{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+.profile{
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+.contact{
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+.sub-headline h2{
+  font-size: 32px;
+  color: #000000;
+  display: inline-block;
+  position: relative;
+}
+.sub-headline h2:before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px; /*下線の上下位置調整*/ */
+  display: inline-block;
+  width: 70px; /*下線の幅*/
+  height: 3px; /*下線の太さ*/
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translate(-50%); /*位置調整*/
+  background-color: #EC715F; /*下線の色*/
+}
+.sub-headline-text{
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+.images{
+  float: left;
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.images:nth-child(1) {
+  background-image: url(img/sketch.jpg);
+  margin: 0 10px 10px 0;
+  }
+.images:nth-child(2) {
+  background-image: url(img/websuku.png);
+  margin: 0 10px 10px 0;
+  }
+.images:nth-child(3) {
+  background-image: url(img/write.jpg);
+  }
+.images:nth-child(4) {
+  background-image: url(img/webcamp.png);
+  margin: 0 10px 10px 0;
+  }
+.images:nth-child(5) {
+  background-image: url(img/talk.jpg);
+  margin: 0 10px 10px 0;
+  }
+.images:nth-child(6) {
+  background-image: url(img/webcamp-mother.png);
+  }
+.strength{
+  float: left;
+  width: 320px;
+  margin-right: 20px;
+  text-align: center;
+  font-size: 60px;
+}
+.strength:last-child{
+  margin-right: 0;
+}
+.strength-title{
+  padding: 10px 0;
+  font-size: 20px;
+}
+.strength-text{
+  text-align: left;
+  font-size: 16px;
+}
+.left-content{
+	width: 50%;
+	float: left;
+}
+
+.right-content{
+	width: 50%;
+	float: right;
+  text-align: left;
+}
+
+.my-face{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-image: url(img/my-icon.jpg);
+}
+
+.description-title{
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.description-title:first-child{
+	margin-top: 0;
+}
+
+.description-text{
+	font-size: 16px
+}
+.left-contact-content{
+	width: 130px;
+	margin: 0 auto;
+  text-align: left;
+}
+
+.link-text{
+	text-decoration: underline;
+	color: #212121;
+}
+
+.right-contact-content{
+	width: 200px;
+	margin: 0 auto;
+}
+
+.right-contact-content i{
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+.right-contact-content i:last-child {
+	margin-right: 0;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+	line-height: 60px;
+}
+
+.copyright {
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+}
+}
