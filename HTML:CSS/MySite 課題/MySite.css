@@ -19,6 +19,10 @@
   margin: 0 auto;
   text-align: right;
 }
+.nav-list a{
+  text-decoration: none;
+  color: #FAFAFA
+}
 .nav-icon{
   position: absolute;
   height: 70px;
@@ -31,7 +35,6 @@
   padding: 0 30px;
   font-size: 16px;
   display: inline-block;
-  color: #FAFAFA;
 }
 .main-visual{
   width: 100%;
@@ -57,7 +60,6 @@
 }
 .main2, .main4{
   width: 100%;
-  background-color: #FAFAFA;
 }
 #portfolio{
   width: 920px;
@@ -66,7 +68,7 @@
   padding: 90px 0;
 }
 #feature{
-  width: 1000px;
+  width: 980px;
   margin: 0 auto;
   text-align: center;
   padding: 90px 0;
@@ -132,7 +134,8 @@
 .strength{
   float: left;
   width: 320px;
-  margin-right: 20px;
+  height: auto;
+  margin-right: 10px;
   text-align: center;
   font-size: 60px;
 }
@@ -147,71 +150,147 @@
   text-align: left;
   font-size: 16px;
 }
-.left-content{
-	width: 50%;
-	float: left;
-}
-
-.right-content{
-	width: 50%;
-	float: right;
-  text-align: left;
-}
-
 .my-face{
-	width: 250px;
-	height: 250px;
-	margin: 0 auto;
-	border-radius: 50%;
-	background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto
 }
-
-.description-title{
-  margin: 20px 0 5px 0;
-  font-size: 20px;
+.left-side{
+  float: left;
+  width: 50%;
 }
-
-.description-title:first-child{
-	margin-top: 0;
-}
-
-.description-text{
-	font-size: 16px
-}
-.left-contact-content{
-	width: 130px;
-	margin: 0 auto;
+.right-side{
+  float: right;
+  width: 50%;
   text-align: left;
 }
-
-.link-text{
-	text-decoration: underline;
-	color: #212121;
+.my-face{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto
 }
-
-.right-contact-content{
-	width: 200px;
-	margin: 0 auto;
+.description{
+  font-size: 20px;
+  padding-bottom: 5px;
 }
-
-.right-contact-content i{
-	font-size: 50px;
-	margin-right: 20px;
+.description-text{
+  font-size: 16px;
+  padding-bottom: 20px;
 }
-
-.right-contact-content i:last-child {
-	margin-right: 0;
+.left-info{
+  width: 170px;
+  margin: 0 auto;
+  text-align: left;
+}
+.right-info{
+  width: 210px;
+  margin: 0 auto;
+  text-align: left;
+}
+.info{
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.detail{
+  padding-bottom: 20px;
+}
+.detail a{
+  color: #000000;
+}
+.icon i{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 50px;
 }
 footer{
-	width: 100%;
-	height: 60px;
-	background-color: #EC715F;
-	line-height: 60px;
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  line-height: 60px;
 }
 
 .copyright {
-	font-size: 16px;
-	color: #FAFAFA;
-	text-align: center;
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
 }
+@media screen and (max-width:768px){
+  .nav{
+    height: 50px;
+  }
+  .nav-list{
+    width: 100%
+  }
+  .hamburger-box{
+    float: right;
+    width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #FAFAFA;
+		margin-top: 5px;
+		margin-bottom: 5px;
+  }
+  .bar{
+    display: block;
+		width: 25px;
+		height: 2px;
+		margin: 5px auto;
+		background-color: #FAFAFA;
+  }
+  .bar:first-child{
+		margin-top: 10px;
+	}
+  .nav-list-item{
+    display: none;
+  }
+  .nav-icon{
+    height: 50px;
+  }
+  .main-visual{
+    background-image: url(img/code.png);
+  }
+  #portfolio,#feature,#profile,#contact{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .images:nth-child(even){
+    float: none;
+    margin: 0 auto 10px;
+  }
+  .images:nth-child(odd){
+    display: none;
+  }
+  .strength{
+    float: none;
+    margin: 0 auto;
+  }
+  .strength:last-child{
+    margin: 0 auto;
+  }
+  .left-side{
+    float: none;
+    margin: 0 auto;
+  }
+  .right-side{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .left-info,.right-info{
+    text-align: center;
+  }
+  .icon i{
+    margin-right: 8px;
+  }
+  .strength-text{
+    margin-bottom: 10px;
+  }
+  .my-face{
+    margin-bottom: 20px;
+  }
+  .portfolio-image,.feature-image,.information{
+    margin: 0 auto;
+  }
 }

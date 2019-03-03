@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name=viewport content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
   <link rel="stylesheet" href="MySite.css">
   <title>MySite</title>
@@ -10,12 +10,17 @@
 <body>
   <header>
     <nav class="nav">
-      <ul class="nav-list">
+      <ul class="nav-list clearfix">
+        <div class="hamburger-box">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
         <img class="nav-icon" src="img/logo.png">
-        <li class="nav-list-item"><a href"#portfolio">Portfolio</a></li>
-        <li class="nav-list-item"><a href"#feature">Feature</a></li>
-        <li class="nav-list-item"><a href"#profile">Profile</a></li>
-        <li class="nav-list-item"><a href"#contact">Contact</a></li>
+        <li class="nav-list-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="nav-list-item"><a href="#feature">Feature</a></li>
+        <li class="nav-list-item"><a href="#profile">Profile</a></li>
+        <li class="nav-list-item"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -60,7 +65,7 @@
               Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
               looked up one of the more obscure Latin words, consectetur
             </p>
-          </div>
+          </section>
           <section class="strength">
             <i class="fa fa-desktop"></i>
             <h3 class="strength-title">Strength2</h3>
@@ -70,7 +75,7 @@
               Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
               looked up one of the more obscure Latin words, consectetur
             </p>
-          </div>
+          </section>
           <section class="strength">
             <i class="fa fa-cogs"></i>
             <h3 class="strength-title">Strength3</h3>
@@ -80,7 +85,7 @@
               Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
               looked up one of the more obscure Latin words, consectetur
             </p>
-          </div>
+          </section>
         </div>
       </section>
     </div>
@@ -92,7 +97,7 @@
           content of a page when looking at its layout.<br>
           The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <div class="infomation clearfix">
+        <div class="information clearfix">
           <div class="left-side">
             <img class="my-face" src="img/my-icon.jpg">
           </div>
@@ -112,7 +117,41 @@
           </section>
         </section>
       </div>
-    </div>  
+    </div>
+    <div class="main4">
+      <section id="contact">
+        <h2 class="sub-headline">Contact</h2>
+        <p class="sub-headline-text">
+          It is a long established fact that a reader will be distracted by the readable<br>
+          content of a page when looking at its layout.<br>
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+        </p>
+        <div class="information clearfix">
+          <div class="left-side">
+            <section class="left-info">
+              <h3 class="info">Mail</h3>
+              <div class="detail">
+                <a href="mailto:xxx@xxx.com">xxx@xxx.com</a>
+              </div>
+              <h3 class="info">Tell</h3>
+              <div class="detail">
+                <a href="tel:000-0000-0000">000-0000-0000</a>
+              </div>
+            </section>
+          </div>
+          <div class="right-side">
+            <section class="right-info">
+              <h3 class="info">SNS</h3>
+              <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
   <footer>
     <p class="copyright">©︎ 2017 WebCamp</p>
