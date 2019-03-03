@@ -57,6 +57,7 @@
     width: 90%;
   }
   .box{
+    width: 100%;
     float: none;
     margin: 20px auto;
   }
