@@ -4,35 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-  <link rel="stylesheet" href="matome.css">
-  <title>matome</title>
+  <link rel="stylesheet" href="MySite.css">
+  <title>MySite</title>
 </head>
 <body>
   <header>
     <nav class="nav">
       <ul class="nav-list">
         <img class="nav-icon" src="img/logo.png">
-        <li class="nav-list-item">Portfolio</li>
-        <li class="nav-list-item">Feature</li>
-        <li class="nav-list-item">Profile</li>
-        <li class="nav-list-item">Contact</li>
+        <li class="nav-list-item"><a href"#portfolio">Portfolio</a></li>
+        <li class="nav-list-item"><a href"#feature">Feature</a></li>
+        <li class="nav-list-item"><a href"#profile">Profile</a></li>
+        <li class="nav-list-item"><a href"#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <div class="main-visual">
+  <section class="main-visual">
     <h1 class="headline">Lorem Ipsum</h1>
     <p class="headline-text">simple dummy text of the printing</p>
-  </div>
+  </section>
   <main>
     <div class="main1">
-      <section class="portfolio clearfix">
+      <section id="portfolio">
         <h2 class="sub-headline">Portfolio</h2>
         <p class="sub-headline-text">
           It is a long established fact that a reader will be distracted by the readable<br>
           content of a page when looking at its layout.<br>
           The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <div class="portfolio-image">
+        <div class="portfolio-image clearfix">
           <div class="images"></div>
           <div class="images"></div>
           <div class="images"></div>
@@ -43,14 +43,14 @@
       <section>
     </div>
     <div class="main2">
-      <section class="feature clearfix">
+      <section id="feature">
         <h2 class="sub-headline">Feature</h2>
         <p class="sub-headline-text">
           It is a long established fact that a reader will be distracted by the readable<br>
           content of a page when looking at its layout.<br>
           The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
         </p>
-        <div class="feature-image">
+        <div class="feature-image clearfix">
           <div class="strength">
             <i class="fa fa-code"></i>
             <h3 class="strength-title">Strength1</h3>
@@ -84,61 +84,9 @@
         </div>
       </section>
     </div>
-    <div class="main3">
-      <section class="profile clearfix">
-        <h2 class="sub-headline">Profile</h2>
-        <p class="sub-headline-text">
-          It is a long established fact that a reader will be distracted by the readable<br>
-          content of a page when looking at its layout.<br>
-          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
-        </p>
-        <div class="left-content">
-          <div class="my-face"></div>
-        </div>
-        <div class="right-content">
-          <h3 class="description-title">MyName</h3>
-          <p class="description-text">
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-            Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-            looked up one of the more obscure Latin words, consectetur
-          </p>
-          <h3 class="description-title">MySkills</h3>
-          <p class="description-text">
-            HTML/CSS,JavaScript,JQuery,PhotoShop
-          </p>
-        </div>
-      </section>
-    </div>
-    <div class="main4">
-      <section class="contact clearfix">
-        <h2 class="sub-headline">Contact</h2>
-        <p class="sub-headline-text">
-          It is a long established fact that a reader will be distracted by the readable<br>
-          content of a page when looking at its layout.<br>
-          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
-        </p>
-        <div class="left-content">
-          <div class="left-contact-content">
-            <h3 class="description-title">Mail</h3>
-            <a class="description-text link-text" href="mailto:xxx@xxx.com">xxx@xxx.com</a>
-            <h3 class="description-title">Tell</h3>
-            <a class="description-text link-text" href="tel:00000000000">000-0000-0000</a>
-          </div>
-        </div>
-        <div class="right-content">
-					<div class="right-contact-content">
-						<h3 class="discription-title">SNS</h3>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram"></i>
-					</div>
-				</div>
-      </section>
-    </div>
   </main>
   <footer>
     <p class="copyright">©︎ 2017 WebCamp</p>
-  </footer>  
+  </footer>
 </body>
 </html>
