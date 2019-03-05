@@ -270,10 +270,12 @@ footer{
     margin: 0 auto;
   }
   .left-side{
+    width: 90%;
     float: none;
     margin: 0 auto;
   }
   .right-side{
+    width: 90%;
     float: none;
     margin: 0 auto;
     text-align: center;
